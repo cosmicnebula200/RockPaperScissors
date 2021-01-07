@@ -89,7 +89,7 @@ class Main extends PluginBase{
 					}else{
 						$sender->sendMessage(str_replace("{BotMove}" , $botmove ,str_replace("&" , "§" ,$tieMsg)));
 					}
-					if($args[0] !== "paper" || $args[0] !== "scissors" || $args[0] !== "rock"){
+					if($args[0] !== "paper" && $args[0] !== "scissors" && $args[0] !== "rock"){
 						$notValidArg = $this->getConfig()->get("notValidArg");
 						$sender->sendMessage(str_replace("&" , "§" ,$notValidArg));
 					}
