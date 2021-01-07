@@ -10,7 +10,11 @@ config-version: 1
 WinMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Win!!!"
 LoseMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Lose :C"
 TiedMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You both Tied"
+
+# Message to send when a player does /rps without mentioning his move
 NoArgsMessage: "&l&a[RPS] -> please choose one from rock , paper or scissors and enter /rps YOUR_MOVE"
+# Message to send when a player does /rps with some random name instead of rock , paper or scissors
+notValidArg: "&l&a[RPS] -> please choose one from rock , paper or scissors ONLY"
 
 # These are the commands that will run when the player wins you can add as many commmands as you want :)
 # You can use {PLAYER} to get the player name
