@@ -2,9 +2,10 @@
 build-by-default: true
 branches:
 - main
-icon: "icon.png"
-    path: ""
+
 projects:
   RockPaperScissors:
     path: ""
+  icon: "rps.png"
+    path: ""  
 ...
