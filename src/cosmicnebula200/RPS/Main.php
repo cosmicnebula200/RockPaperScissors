@@ -1,13 +1,13 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace cosmicnebula200\RPS;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\ConsoleCommandSender;
-
-
 
 class Main extends PluginBase{
 
@@ -97,7 +97,6 @@ class Main extends PluginBase{
 					$noArgs = $this->getConfig()->get("NoArgsMessage");
 					$sender->sendMessage(str_replace("&" , "§",$noArgs));
 				}
-
 		}
 		return true;
 	}
