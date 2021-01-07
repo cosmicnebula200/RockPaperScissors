@@ -1,0 +1,18 @@
+# Config for RockPaperScissors made by cosmicnebula200
+# Do not change this value , this is for internal use only and does not change anything .
+# Messing with this can break the plugin
+config-version: 1
+
+# Messages for the plugin so that everyone can customize :)
+# You can use {BotMove} to show what was chosen and explaining the victory or defeat
+# use § for color coding. I might support "&" for it later
+WinMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Win!!!"
+LoseMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Lose :C"
+TiedMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You both Tied"
+NoArgsMessage: "&l&a[RPS] -> please choose one from rock , paper or scissors and enter /rps YOUR_MOVE"
+
+# These are the commands that will run when the player wins you can add as many commmands as you want :)
+# You can use {PLAYER} to get the player name
+commands:
+  - "say {PLAYER} has won a rps game do `/rps <args>` to play :)"
+  - "say You can add more commands on config.yml"

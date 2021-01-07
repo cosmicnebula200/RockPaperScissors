@@ -1,0 +1,17 @@
+name: RockPaperScissors
+version: 1.0.0
+api: 3.0.0
+main: cosmicnebula200\RPS\Main
+author: cosmicnebula200
+description: A simple plugin to play rps.
+
+commands:
+  rps:
+    usage: /rps <args>
+    description: A simple rps game.
+    permission: rps.command
+
+permissions:
+  rps.command:
+    description: Gives access to rps command
+    default: true
