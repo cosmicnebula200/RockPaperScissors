@@ -4,7 +4,7 @@ A simple rock, paper, scissors game for PocketMine!
 
 # How to install
 
-1. Download the phar [here].
+1. Download the phar [here](https://poggit.pmmp.io/ci/cosmicnebula200/RockPaperScissors/RockPaperScissors/dev:2).
 2. Upload it to your server's plugin directory.
 3. Restart your server.
 
