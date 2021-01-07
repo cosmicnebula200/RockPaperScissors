@@ -5,7 +5,6 @@ branches:
 
 projects:
   RockPaperScissors:
+    icon: "rps.png"
     path: ""
-  icon: "rps.png"
-    path: ""  
 ...
