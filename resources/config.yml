@@ -6,6 +6,7 @@ config-version: 1
 # Messages for the plugin so that everyone can customize :)
 # You can use {BotMove} to show what was chosen and explaining the victory or defeat
 # use § for color coding. I might support "&" for it later
+# supports & for color coding now
 WinMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Win!!!"
 LoseMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You Lose :C"
 TiedMessage: "&l&a[RPS] -> Opponent has chosen &d {BotMove} &a, You both Tied"
